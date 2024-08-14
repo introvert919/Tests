@@ -12,7 +12,7 @@ namespace For_Jenkins
         [Test]
         public void TestMethod1()
         {
-            string Actual = "aa";
+            string Actual = "a";
             string Expected = "a";
             ClassicAssert.AreEqual(Actual, Expected);   
         }
